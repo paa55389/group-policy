@@ -1,0 +1,3 @@
+Path: Computer/User Configuration > Preferences > Windows Settings > Shortcuts
+Name: Remote Desktop Connection
+Target Path: %SystemRoot%\System32\mstsc.exe
