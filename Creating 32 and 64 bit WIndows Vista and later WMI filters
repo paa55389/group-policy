@@ -1,0 +1,4 @@
+WMI filters
+
+32 bit: SELECT * FROM Win32_OperatingSystem WHERE (Version LIKE '6.0%' OR Version LIKE '6.1%' OR Version LIKE '6.2%' OR Version LIKE '6.3%' OR Version LIKE '10.0%') AND OSArchitecture = '32-bit' AND (ProductType = '1' OR ProductType = '2' OR ProductType = '3')
+64 bit: SELECT * FROM Win32_OperatingSystem WHERE (Version LIKE '6.0%' OR Version LIKE '6.1%' OR Version LIKE '6.2%' OR Version LIKE '6.3%' OR Version LIKE '10.0%') AND OSArchitecture = '64-bit' AND (ProductType = '1' OR ProductType = '2' OR ProductType = '3')
